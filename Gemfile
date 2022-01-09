@@ -45,6 +45,11 @@ group :production do
   gem 'aws-sdk-s3', '1.87.0', require: false
 end
 
+# Add Readline support to Ruby on Mac OS X
+group :development do
+  gem 'rb-readline'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails
 # on a native Windows system:
