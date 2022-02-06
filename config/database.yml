@@ -23,7 +23,7 @@ test:
 production:
   <<: *default
   # database: db/production.sqlite3 <-- commented out and added the code below
-    adapter: postgresql
+  adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
